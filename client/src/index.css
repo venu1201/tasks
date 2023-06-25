@@ -40,46 +40,6 @@ h4 {
 	font-weight: 400;
 	margin-bottom: 16px;
 }
-
-.todo {
-	position: relative;
-	background-color: var(--dark);
-	padding: 16px;
-	border-radius: 16px;
-	display: flex;
-	align-items: center;
-	transition: 0.5s;
-	cursor: pointer;
-	margin-bottom: 16px;
-}
-
-.todo:hover {
-	opacity: 0.8;
-}
-
-.todo .checkbox {
-	width: 20px;
-	height: 20px;
-	margin-right: 16px;
-	border-radius: 50%;
-	background-color: var(--dark-alt);
-	background-image: linear-gradient(to bottom, transparent, transparent);
-	transition: 0.4s;
-}
-
-.todo.is-complete .checkbox {
-	background-color: var(--primary);
-	background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
-}
-
-.todo .text {
-	font-size: 20px;
-}
-
-.todo.is-complete .text {
-	text-decoration: line-through;
-}
-
 .todo .delete-todo {
 	position: absolute;
 	top: 50%;
@@ -162,15 +122,3 @@ h4 {
 	font-size: 20px;
 }
 
-.button {
-	padding: 16px 32px;
-	border-radius: 999px;
-	background-image: linear-gradient(to right, var(--primary), var(--secondary));
-	display: inline-block;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 18px;
-	margin-top: 16px;
-	text-align: center;
-	cursor: pointer;
-}
